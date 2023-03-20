@@ -1,3 +1,6 @@
+@import "./utils/fonctions";
+@import "./utils/mixins";
+@import "./utils/variables";
 @import "./base/font";
 @import "./base/normalize";
 @import "./base/typography";
@@ -11,7 +14,7 @@
 @import "./pages/accueil";
 @import "./pages/contact";
 @import "./pages/event";
-@import "./utils/fonctions";
-@import "./utils/mixins";
+
+
 @import "./utils/placeholders";
-@import "./utils/variables";
+
