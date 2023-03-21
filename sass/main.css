@@ -1,41 +1,90 @@
-header {
-  background-color: black;
+.logobx {
+  width: 200px;
+}
+
+nav {
+  background-color: #F6F4F4;
+  height: 148px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .logo {
-  width: 550px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.barrenav {
-  background-color: yellow;
-}
-
-header {
-  background-color: black;
-}
-
-fieldset {
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
 }
 
-form {
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu li a {
+  color: #2C2727;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0 40px;
+}
+
+.search-form {
   display: flex;
-  justify-content: center;
+  margin-right: 40px;
 }
 
-input, textarea {
-  padding: 2%;
-  margin-bottom: 5%;
+search-form input[type=text] {
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 5px 0 0 5px;
 }
 
-#envoyer {
-  align-self: center;
-  width: 25%;
+.search-form button {
+  background-color: #F4D03F;
+  height: 30px;
+  width: 50px;
+  border: none;
+  color: #F4D03F;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
-#envoyer:hover {
-  background-color: yellow;
+.nav-buttons {
+  display: flex;
+  padding-left: 50px;
+}
+
+.connexion {
+  background-color: #F4D03F;
+  border: solid;
+  padding-left: 500px;
+  color: #F6F4F4;
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.inscription {
+  background-color: #2C2727;
+  color: #F6F4F4;
+  margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */
