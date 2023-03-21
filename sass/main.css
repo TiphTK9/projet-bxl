@@ -12,4 +12,30 @@ header {
 
 header {
   background-color: black;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input, textarea {
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+#envoyer {
+  align-self: center;
+  width: 25%;
+}
+
+#envoyer:hover {
+  background-color: yellow;
 }/*# sourceMappingURL=main.css.map */
